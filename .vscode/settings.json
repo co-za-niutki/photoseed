@@ -1,3 +1,7 @@
 {
-  "cSpell.words": ["photoseed"]
+  "cSpell.words": ["photoseed"],
+  "editor.formatOnSave": true,
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  }
 }
