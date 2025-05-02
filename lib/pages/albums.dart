@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class Albums extends StatelessWidget {
@@ -5,6 +6,6 @@ class Albums extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('Albums')));
+    return Scaffold(body: Center(child: Text('albums'.tr())));
   }
 }

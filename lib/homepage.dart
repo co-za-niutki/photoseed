@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:photoseed/widgets/app_bar.dart';
 import 'package:photoseed/pages/camera.dart';
@@ -35,17 +36,17 @@ class _HomepageState extends State<Homepage> {
             NavigationDestination(
               icon: Icon(Icons.camera_alt_outlined),
               selectedIcon: Icon(Icons.camera_alt),
-              label: "Camera",
+              label: "camera".tr(),
             ),
             NavigationDestination(
               icon: Icon(Icons.photo_album_outlined),
               selectedIcon: Icon(Icons.photo_album),
-              label: "Albums",
+              label: "albums".tr(),
             ),
             NavigationDestination(
               icon: Icon(Icons.auto_awesome_mosaic_outlined),
               selectedIcon: Icon(Icons.auto_awesome_mosaic),
-              label: "Library",
+              label: "library".tr(),
             ),
           ],
           onDestinationSelected: (index) {
