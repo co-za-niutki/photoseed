@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "pl.foxlab.photoseed"
+    namespace = "pl.co_za_niutki.photoseed"
     compileSdk = flutter.compileSdkVersion
     // ndkVersion = flutter.ndkVersion
     ndkVersion = "27.0.12077973"
@@ -21,7 +21,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "pl.foxlab.photoseed"
+        applicationId = "pl.co_za_niutki.photoseed"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

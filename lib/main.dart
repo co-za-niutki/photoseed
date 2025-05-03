@@ -1,5 +1,5 @@
 // Photoseed - gallery app
-// Copyright (C) 2025  magic-forces
+// Copyright (C) 2025  co-za-niutki
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published
