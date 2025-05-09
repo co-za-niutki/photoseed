@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:photoseed/widgets/settings_dialog.dart';
 
 class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   const MyAppBar({super.key});
 
   @override
-  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+  Size get preferredSize => Size.fromHeight(kToolbarHeight);
   @override
   Widget build(BuildContext context) {
     return AppBar(
@@ -16,6 +17,31 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
           Text("Photoseed"),
         ],
       ),
+      actions: [
+        Padding(
+          padding: EdgeInsets.all(8.0),
+          child: Container(
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.secondaryContainer,
+              shape: BoxShape.circle,
+            ),
+            child: IconButton(
+              icon: Icon(
+                Icons.settings,
+                color: Theme.of(context).colorScheme.primary,
+              ),
+              onPressed: () {
+                showDialog(
+                  context: context,
+                  builder: (BuildContext context) {
+                    return SettingsDialog();
+                  },
+                );
+              },
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
