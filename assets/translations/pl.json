@@ -2,6 +2,7 @@
   "camera": "Aparat",
   "albums": "Albumy",
   "library": "Biblioteka",
+  "settings": "Ustawienia",
   "permission_gate": {
     "explanation": "Photoseed potrzebuje dostępu do Twoich zdjęć i wideo, aby wyświetlać galerię, umożliwiać import plików i tworzyć kopie zapasowe. Prosimy o przyznanie uprawnień.",
     "retry": "Spróbuj ponownie",

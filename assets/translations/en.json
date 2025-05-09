@@ -2,6 +2,7 @@
   "camera": "Camera",
   "albums": "Albums",
   "library": "Library",
+  "settings": "Settings",
   "permission_gate": {
     "explanation": "Photoseed needs access to your photos and videos to display the gallery, allow file import, and create backups. Please grant the permissions.",
     "retry": "Try again",
