@@ -70,7 +70,8 @@ When opening a PR, please:
 
 - UI views/pages go in `lib/pages/`
 - Styling and color themes go in `lib/theme/`
-- Shared widgets (if any) should go in `lib/widgets/`
+- Shared widgets should go in `lib/widgets/`
+- Utility functions, helpers, and extensions go in `lib/utils/`
 - `main.dart` is the app entry point
 - Keep business logic separate from UI (preferably in controllers/services folders)
 
