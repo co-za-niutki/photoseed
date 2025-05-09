@@ -36,7 +36,7 @@ void main() async {
       fallbackLocale: Locale('en'),
       child: MyApp(
         startPage:
-            permissionsGranted ? const Homepage() : const PermissionGate(),
+            permissionsGranted.allGranted ? Homepage() : PermissionGate(),
       ),
     ),
   );
