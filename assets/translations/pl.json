@@ -1,5 +1,12 @@
 {
   "camera": "Aparat",
   "albums": "Albumy",
-  "library": "Biblioteka"
+  "library": "Biblioteka",
+  "permission_gate": {
+    "explanation": "Photoseed potrzebuje dostępu do Twoich zdjęć i wideo, aby wyświetlać galerię, umożliwiać import plików i tworzyć kopie zapasowe. Prosimy o przyznanie uprawnień.",
+    "retry": "Spróbuj ponownie",
+    "denied_message": "Uprawnienia wciąż nieprzyznane. Aby korzystać z aplikacji, musisz je nadać.",
+    "permanently_denied_message": "Uprawnienia zostały trwale odrzucone. Aby kontynuować, musisz je włączyć w ustawieniach aplikacji. Po zmianie ustawień może być konieczne ponowne uruchomienie aplikacji.",
+    "open_settings": "Otwórz ustawienia"
+  }
 }
