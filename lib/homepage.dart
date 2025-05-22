@@ -1,6 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:photoseed/widgets/app_bar.dart';
 import 'package:photoseed/pages/camera.dart';
 import 'package:photoseed/pages/albums.dart';
 import 'package:photoseed/pages/library.dart';
@@ -29,7 +28,6 @@ class _HomepageState extends State<Homepage> {
         }
       },
       child: Scaffold(
-        appBar: MyAppBar(),
         body: screens[pageIndex],
         bottomNavigationBar: NavigationBar(
           destinations: [
@@ -56,6 +54,7 @@ class _HomepageState extends State<Homepage> {
           },
           selectedIndex: pageIndex,
           labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
+          height: 60,
         ),
       ),
     );

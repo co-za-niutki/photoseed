@@ -7,7 +7,13 @@ class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('settings'.tr())),
+      appBar: AppBar(
+        title: Text(
+          'settings'.tr(),
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+        centerTitle: true,
+      ),
       body: Center(child: Text('settings'.tr())),
     );
   }

@@ -38,3 +38,13 @@ flutter:
   assets:
     - assets/icons/
     - assets/translations/
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+        - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SpaceGrotesk-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SpaceGrotesk-Medium.ttf
+        - asset: assets/fonts/SpaceGrotesk-SemiBold.ttf
