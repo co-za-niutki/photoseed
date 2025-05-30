@@ -53,8 +53,6 @@ class _HomepageState extends State<Homepage> {
             });
           },
           selectedIndex: pageIndex,
-          labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
-          height: 60,
         ),
       ),
     );

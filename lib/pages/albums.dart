@@ -8,9 +8,8 @@ class Albums extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppBar(title: 'albums'.tr()),
+      appBar: MyAppBar(title: 'albums'.tr().toUpperCase()),
       floatingActionButton: FloatingActionButton(
-        elevation: 0,
         onPressed: () {},
         child: Icon(Icons.add),
       ),

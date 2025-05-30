@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:photoseed/widgets/settings_dialog.dart';
+import 'package:photoseed/pages/settings.dart';
 
 class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
@@ -15,13 +15,14 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
       centerTitle: true,
       actions: [
         IconButton(
-          icon: Icon(Icons.menu, color: Theme.of(context).colorScheme.primary),
+          icon: Icon(
+            Icons.settings,
+            color: Theme.of(context).colorScheme.primary,
+          ),
           onPressed: () {
-            showDialog(
-              context: context,
-              builder: (BuildContext context) {
-                return SettingsDialog();
-              },
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => SettingsPage()),
             );
           },
         ),

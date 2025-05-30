@@ -8,7 +8,7 @@ class Library extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppBar(title: 'library'.tr()),
+      appBar: MyAppBar(title: 'library'.tr().toUpperCase()),
       body: Center(child: Text('library'.tr())),
     );
   }

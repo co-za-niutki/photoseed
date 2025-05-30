@@ -8,7 +8,7 @@ class Camera extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppBar(title: 'camera'.tr()),
+      appBar: MyAppBar(title: 'camera'.tr().toUpperCase()),
       body: Center(child: Text('camera'.tr())),
     );
   }

@@ -65,6 +65,13 @@ class _PermissionGateState extends State<PermissionGate> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          'permissions'.tr().toUpperCase(),
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+        centerTitle: true,
+      ),
       body: Center(
         child: Padding(
           padding: EdgeInsets.all(16.0),

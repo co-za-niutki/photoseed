@@ -9,7 +9,7 @@ class SettingsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'settings'.tr(),
+          'settings'.tr().toUpperCase(),
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
