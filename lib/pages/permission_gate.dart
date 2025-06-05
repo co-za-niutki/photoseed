@@ -84,6 +84,10 @@ class _PermissionGateState extends State<PermissionGate> {
               ),
               SizedBox(height: 24),
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Theme.of(context).colorScheme.primary,
+                  foregroundColor: Theme.of(context).colorScheme.onPrimary,
+                ),
                 onPressed:
                     _isRequesting
                         ? null
